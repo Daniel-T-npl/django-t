@@ -1,0 +1,69 @@
+/* Form container */
+.vote-form {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fafafa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Fieldset styling */
+.poll-fieldset {
+    border: 2px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Question title */
+.question-title {
+    font-size: 24px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+/* Error message styling */
+.error-message {
+    color: red;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Choices container */
+.choices-container {
+    margin-top: 20px;
+}
+
+/* Choice item styling */
+.choice-item {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+/* Radio button label styling */
+.choice-label {
+    margin-left: 10px;
+}
+
+/* Submit button container */
+.submit-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Submit button styling */
+.vote-submit {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.vote-submit:hover {
+    background-color: #0056b3;
+}

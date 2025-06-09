@@ -1,6 +1,44 @@
-li a {
-    color: green;
+/* Container for polls */
+.polls-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
 }
-body {
-    background: white url("images/background.png") no-repeat;
+
+/* Title styling */
+.polls-container h2 {
+    text-align: center;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Poll list styling */
+.poll-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Individual poll item styling */
+.poll-item {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+/* Poll link styling */
+.poll-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.poll-link:hover {
+    text-decoration: underline;
+}
+
+/* No polls available message styling */
+.no-polls {
+    text-align: center;
+    font-size: 20px;
+    color: #888;
 }
